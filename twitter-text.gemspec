@@ -7,7 +7,6 @@ spec = Gem::Specification.new do |s|
   s.description = s.summary = "A gem that provides text handling for Twitter"
 
   s.platform = Gem::Platform::RUBY
-  s.has_rdoc = true
   s.summary = "Twitter text handling library"
 
   s.add_development_dependency "nokogiri"
