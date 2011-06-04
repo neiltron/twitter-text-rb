@@ -6,7 +6,6 @@ if major.to_i == 1 && minor.to_i < 9
 end
 
 # External libraries required. (for gems, use: ruby -rubygems ...)
-require 'action_pack'
 require 'action_view'
 
 require File.join(File.dirname(__FILE__), 'regex')
