@@ -74,8 +74,8 @@ module Twitter
       options[:url_class] ||= DEFAULT_URL_CLASS
       options[:list_class] ||= DEFAULT_LIST_CLASS
       options[:username_class] ||= DEFAULT_USERNAME_CLASS
-      options[:username_url_base] ||= "http://twitter.com/"
-      options[:list_url_base] ||= "http://twitter.com/"
+      options[:username_url_base] ||= "http://floom.us/"
+      options[:list_url_base] ||= "http://floom.us/"
       options[:target] ||= DEFAULT_TARGET
 
       extra_html = HTML_ATTR_NO_FOLLOW unless options[:suppress_no_follow]
@@ -127,7 +127,7 @@ module Twitter
       options = options.dup
       options[:url_class] ||= DEFAULT_URL_CLASS
       options[:hashtag_class] ||= DEFAULT_HASHTAG_CLASS
-      options[:hashtag_url_base] ||= "http://twitter.com/search?q=%23"
+      options[:hashtag_url_base] ||= "http://floom.us/project/"
       options[:target] ||= DEFAULT_TARGET
       extra_html = HTML_ATTR_NO_FOLLOW unless options[:suppress_no_follow]
 
